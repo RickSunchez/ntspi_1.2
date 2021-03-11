@@ -1,0 +1,48 @@
+#bron {
+	height: auto;
+	padding: 20px 0px;
+}
+#bron .content {
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+#bron .container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	background: white;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 15px 0px rgba(34, 60, 80, 0.2);
+}
+
+#bron .container .bron_algo {
+	width: 200px;
+	height: 200px;
+	background: lime;
+	margin: 15px;
+	border-radius: 15px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	font-size: 27px;
+	transition: 0.5s;
+	cursor: pointer;
+}
+#bron .container .bron_algo:hover {
+	width: 220px;
+	height: 220px;
+}	
+#bron .container .arrow {
+	width: 0px;
+	height: 0px;
+	background: white;
+	border-left: 15px solid lime;
+	border-top: 15px solid white;
+	border-bottom: 15px solid white;
+}

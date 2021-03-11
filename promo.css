@@ -1,0 +1,20 @@
+#promo .promo_card{
+	max-width: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: lime;
+	padding: 20px;
+	border-radius: 15px;
+}
+
+#promo .promo_card .p_img {
+	width: 200px;
+	height: 200px;
+	background: red;
+	border-radius: 5px;
+}
+#promo .promo_card .title {}
+#promo .promo_card .description {}
+#promo .promo_card .promo_go {}
